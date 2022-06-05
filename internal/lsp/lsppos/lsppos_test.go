@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/lsppos"
-	"golang.org/x/tools/internal/lsp/protocol"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/lsppos"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
 )
 
 type testCase struct {

@@ -12,10 +12,10 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/lsppos"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
+	"github.com/iansmith/golang-x-tools/internal/lsp/lsppos"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/memoize"
 )
 
 type symbolHandle struct {

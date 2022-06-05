@@ -9,9 +9,9 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/tool"
 )
 
 // signature implements the signature verb for gopls

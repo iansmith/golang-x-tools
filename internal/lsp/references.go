@@ -7,9 +7,9 @@ package lsp
 import (
 	"context"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/template"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/lsp/template"
 )
 
 func (s *Server) references(ctx context.Context, params *protocol.ReferenceParams) ([]protocol.Location, error) {

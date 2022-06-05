@@ -153,7 +153,7 @@ available in this map. Each Analyzer must return a value of the type
 described in its Analyzer.ResultType field.
 For example, the "ctrlflow" analyzer returns a *ctrlflow.CFGs, which
 provides a control-flow graph for each function in the package (see
-golang.org/x/tools/go/cfg); the "inspect" analyzer returns a value that
+github.com/iansmith/golang-x-tools/go/cfg); the "inspect" analyzer returns a value that
 enables other Analyzers to traverse the syntax trees of the package more
 efficiently; and the "buildssa" analyzer constructs an SSA-form
 intermediate representation.
@@ -301,8 +301,8 @@ entirety as:
 	package main
 
 	import (
-		"golang.org/x/tools/go/analysis/passes/findcall"
-		"golang.org/x/tools/go/analysis/singlechecker"
+		"github.com/iansmith/golang-x-tools/go/analysis/passes/findcall"
+		"github.com/iansmith/golang-x-tools/go/analysis/singlechecker"
 	)
 
 	func main() { singlechecker.Main(findcall.Analyzer) }

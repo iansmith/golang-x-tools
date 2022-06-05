@@ -15,13 +15,13 @@ import (
 	"sort"
 	"strconv"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/bug"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/lsp/bug"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/safetoken"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 // IdentifierInfo holds information about an identifier in Go source.

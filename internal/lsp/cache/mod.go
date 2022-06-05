@@ -13,14 +13,14 @@ import (
 
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/internal/lsp/debug/tag"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/memoize"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 type parseModHandle struct {

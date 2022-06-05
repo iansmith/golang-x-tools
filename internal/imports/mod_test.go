@@ -20,11 +20,11 @@ import (
 	"testing"
 
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/proxydir"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/txtar"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/gopathwalk"
+	"github.com/iansmith/golang-x-tools/internal/proxydir"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/txtar"
 )
 
 // Tests that we can find packages in the stdlib.

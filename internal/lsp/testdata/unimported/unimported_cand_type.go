@@ -3,8 +3,8 @@ package unimported
 import (
 	_ "context"
 
-	"golang.org/x/tools/internal/lsp/baz"
-	_ "golang.org/x/tools/internal/lsp/signature" // provide type information for unimported completions in the other file
+	"github.com/iansmith/golang-x-tools/internal/lsp/baz"
+	_ "github.com/iansmith/golang-x-tools/internal/lsp/signature" // provide type information for unimported completions in the other file
 )
 
 func _() {

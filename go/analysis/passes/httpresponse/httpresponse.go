@@ -10,10 +10,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/inspect"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/internal/analysisutil"
+	"github.com/iansmith/golang-x-tools/go/ast/inspector"
 )
 
 const Doc = `check for mistakes using HTTP responses

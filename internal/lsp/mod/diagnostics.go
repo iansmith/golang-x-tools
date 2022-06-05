@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/internal/lsp/debug/tag"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
 )
 
 func Diagnostics(ctx context.Context, snapshot source.Snapshot) (map[source.VersionedFileIdentity][]*source.Diagnostic, error) {

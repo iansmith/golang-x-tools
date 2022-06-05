@@ -10,9 +10,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/snippet"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
 )
 
 // addStatementCandidates adds full statement completion candidates

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/apidiff"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/apidiff"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 func TestAPIConsistency(t *testing.T) {

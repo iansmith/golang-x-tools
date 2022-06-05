@@ -14,11 +14,11 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/inspect"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/internal/analysisinternal"
+	"github.com/iansmith/golang-x-tools/internal/typesinternal"
 )
 
 const Doc = `stub methods analyzer

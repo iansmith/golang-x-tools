@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
 )
 
 const data = `

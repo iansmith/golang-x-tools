@@ -16,9 +16,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/internal/analysisinternal"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 const Doc = `check for common mistaken usages of tests and examples

@@ -16,15 +16,15 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/lsp/debug/tag"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/memoize"
+	"github.com/iansmith/golang-x-tools/internal/packagesinternal"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // load calls packages.Load for the given scopes, updating package metadata,

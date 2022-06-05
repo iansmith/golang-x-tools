@@ -18,13 +18,13 @@ import (
 
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/progress"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/imports"
+	"github.com/iansmith/golang-x-tools/internal/lsp/progress"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // Snapshot represents the current state for the given view.

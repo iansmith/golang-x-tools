@@ -7,8 +7,8 @@ package structtag_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/structtag"
+	"github.com/iansmith/golang-x-tools/go/analysis/analysistest"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/structtag"
 )
 
 func Test(t *testing.T) {

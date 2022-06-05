@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/lsp/diff"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // format implements the format verb for gopls.

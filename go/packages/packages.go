@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/typeparams"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/iansmith/golang-x-tools/go/gcexportdata"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/packagesinternal"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/internal/typesinternal"
 )
 
 // A LoadMode controls the amount of detail to return when loading.
@@ -1249,7 +1249,7 @@ func (ld *loader) loadFromExportData(lpkg *loaderPackage) (*types.Package, error
 		viewLen++
 	}
 	if viewLen != len(view) {
-		log.Panicf("golang.org/x/tools/go/packages: unexpected new packages during load of %s", lpkg.PkgPath)
+		log.Panicf("github.com/iansmith/golang-x-tools/go/packages: unexpected new packages during load of %s", lpkg.PkgPath)
 	}
 
 	lpkg.Types = tpkg

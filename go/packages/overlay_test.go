@@ -14,9 +14,9 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/go/packages/packagestest"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 const (

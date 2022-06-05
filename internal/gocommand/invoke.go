@@ -19,7 +19,7 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/event"
 )
 
 // An Runner will run go command invocations and serialize

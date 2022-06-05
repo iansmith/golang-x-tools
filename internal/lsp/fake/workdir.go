@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // FileEvent wraps the protocol.FileEvent so that it can be associated with a

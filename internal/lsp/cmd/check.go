@@ -9,7 +9,7 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // check implements the check verb for gopls.

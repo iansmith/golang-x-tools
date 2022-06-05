@@ -6,8 +6,8 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/regtest"
 )
 
 // Test for golang/go#49125

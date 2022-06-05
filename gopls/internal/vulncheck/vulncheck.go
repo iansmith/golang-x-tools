@@ -12,8 +12,8 @@ import (
 	"context"
 	"errors"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
 )
 
 // Govulncheck runs the in-process govulncheck implementation.

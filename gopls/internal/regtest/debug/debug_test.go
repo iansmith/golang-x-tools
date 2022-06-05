@@ -7,9 +7,9 @@ package debug
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/bug"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/iansmith/golang-x-tools/gopls/internal/hooks"
+	"github.com/iansmith/golang-x-tools/internal/lsp/bug"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/regtest"
 )
 
 func TestMain(m *testing.M) {

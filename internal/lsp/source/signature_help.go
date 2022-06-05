@@ -11,9 +11,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
 )
 
 func SignatureHelp(ctx context.Context, snapshot Snapshot, fh FileHandle, position protocol.Position) (*protocol.SignatureInformation, int, error) {

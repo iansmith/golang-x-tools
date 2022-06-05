@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/lsp/fake"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 func TestCaseInsensitiveFilesystem(t *testing.T) {

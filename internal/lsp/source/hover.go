@@ -21,11 +21,11 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/text/unicode/runenames"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/bug"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/lsp/bug"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/safetoken"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 // HoverContext contains context extracted from the syntax and type information

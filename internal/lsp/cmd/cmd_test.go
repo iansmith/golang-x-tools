@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/bug"
-	cmdtest "golang.org/x/tools/internal/lsp/cmd/test"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/lsp/bug"
+	cmdtest "github.com/iansmith/golang-x-tools/internal/lsp/cmd/test"
+	"github.com/iansmith/golang-x-tools/internal/lsp/tests"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

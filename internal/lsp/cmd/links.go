@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/tool"
 )
 
 // links implements the links verb for gopls.

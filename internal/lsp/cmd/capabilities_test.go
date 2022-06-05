@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp"
+	"github.com/iansmith/golang-x-tools/internal/lsp/cache"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
 )
 
 // TestCapabilities does some minimal validation of the server's adherence to the LSP.

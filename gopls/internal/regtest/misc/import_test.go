@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/lsp/tests"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/regtest"
+	"github.com/iansmith/golang-x-tools/internal/lsp/tests"
 )
 
 func TestAddImport(t *testing.T) {

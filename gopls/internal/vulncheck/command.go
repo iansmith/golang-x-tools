@@ -13,9 +13,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/go/packages"
-	gvc "golang.org/x/tools/gopls/internal/govulncheck"
-	"golang.org/x/tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	gvc "github.com/iansmith/golang-x-tools/gopls/internal/govulncheck"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
 	"golang.org/x/vuln/client"
 )
 

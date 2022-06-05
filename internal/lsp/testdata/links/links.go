@@ -3,7 +3,7 @@ package links
 import (
 	"fmt" //@link(`fmt`,"https://pkg.go.dev/fmt?utm_source=gopls")
 
-	"golang.org/x/tools/internal/lsp/foo" //@link(`golang.org/x/tools/internal/lsp/foo`,`https://pkg.go.dev/golang.org/x/tools/internal/lsp/foo?utm_source=gopls`)
+	"github.com/iansmith/golang-x-tools/internal/lsp/foo" //@link(`github.com/iansmith/golang-x-tools/internal/lsp/foo`,`https://pkg.go.dev/github.com/iansmith/golang-x-tools/internal/lsp/foo?utm_source=gopls`)
 
 	_ "database/sql" //@link(`database/sql`, `https://pkg.go.dev/database/sql?utm_source=gopls`)
 )

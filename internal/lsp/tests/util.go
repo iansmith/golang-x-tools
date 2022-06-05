@@ -15,12 +15,12 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/source/completion"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/lsp/diff"
+	"github.com/iansmith/golang-x-tools/internal/lsp/diff/myers"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source/completion"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 // DiffLinks takes the links we got and checks if they are located within the source or a Note.

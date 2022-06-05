@@ -11,11 +11,11 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/snippet"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 // literal generates composite literal, function literal, and make()

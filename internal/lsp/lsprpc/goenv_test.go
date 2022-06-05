@@ -8,10 +8,10 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 
-	. "golang.org/x/tools/internal/lsp/lsprpc"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/lsprpc"
 )
 
 type initServer struct {

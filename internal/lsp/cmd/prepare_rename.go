@@ -10,9 +10,9 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/tool"
 )
 
 // prepareRename implements the prepare_rename verb for gopls.

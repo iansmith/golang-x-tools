@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/packages/packagestest"
+	"github.com/iansmith/golang-x-tools/go/packages/packagestest"
 )
 
 type Normalizer struct {

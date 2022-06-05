@@ -15,17 +15,17 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/bug"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/source/completion"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/lsp/bug"
+	"github.com/iansmith/golang-x-tools/internal/lsp/cache"
+	"github.com/iansmith/golang-x-tools/internal/lsp/diff"
+	"github.com/iansmith/golang-x-tools/internal/lsp/diff/myers"
+	"github.com/iansmith/golang-x-tools/internal/lsp/fuzzy"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source/completion"
+	"github.com/iansmith/golang-x-tools/internal/lsp/tests"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

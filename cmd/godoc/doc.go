@@ -110,4 +110,4 @@ https://golang.org/doc/articles/godoc_documenting_go_code.html
 Deprecated: godoc cannot select what version of a package is displayed.
 Instead, use golang.org/x/pkgsite/cmd/pkgsite.
 */
-package main // import "golang.org/x/tools/cmd/godoc"
+package main // import "github.com/iansmith/golang-x-tools/cmd/godoc"

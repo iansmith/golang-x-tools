@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/buildssa"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/analysis/analysistest"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/buildssa"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

@@ -70,13 +70,13 @@ Using digraph with existing Go tools:
 
 Show the transitive closure of imports of the digraph tool itself:
 
-	$ go list -f '{{.ImportPath}} {{join .Imports " "}}' ... | digraph forward golang.org/x/tools/cmd/digraph
+	$ go list -f '{{.ImportPath}} {{join .Imports " "}}' ... | digraph forward github.com/iansmith/golang-x-tools/cmd/digraph
 
 Show which clothes (see above) must be donned before a jacket:
 
 	$ digraph reverse jacket
 */
-package main // import "golang.org/x/tools/cmd/digraph"
+package main // import "github.com/iansmith/golang-x-tools/cmd/digraph"
 
 // TODO(adonovan):
 // - support input files other than stdin

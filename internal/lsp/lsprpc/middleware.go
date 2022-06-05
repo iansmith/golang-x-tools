@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sync"
 
-	"golang.org/x/tools/internal/event"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
+	"github.com/iansmith/golang-x-tools/internal/event"
+	jsonrpc2_v2 "github.com/iansmith/golang-x-tools/internal/jsonrpc2_v2"
 )
 
 // Metadata holds arbitrary data transferred between jsonrpc2 peers.

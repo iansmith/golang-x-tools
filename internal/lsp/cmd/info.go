@@ -14,10 +14,10 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/browser"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/internal/lsp/browser"
+	"github.com/iansmith/golang-x-tools/internal/lsp/debug"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/tool"
 )
 
 // help implements the help command.

@@ -13,11 +13,11 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/internal/facts"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/analysis/analysistest"
+	"github.com/iansmith/golang-x-tools/go/analysis/internal/facts"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 type myFact struct {

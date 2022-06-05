@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/iansmith/golang-x-tools/go/packages"
 )
 
 // Example demonstrates how to load the packages specified on the

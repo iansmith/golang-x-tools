@@ -13,8 +13,8 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/lsp/fuzzy"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/internal/lsp/fuzzy"
 )
 
 // Flag to gate diagnostics for fuzz tests in 1.18.

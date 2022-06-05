@@ -16,10 +16,10 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/internal/analysisinternal"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 const Doc = `suggested fixes for "undeclared name: <>"

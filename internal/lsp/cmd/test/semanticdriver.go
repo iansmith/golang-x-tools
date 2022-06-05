@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 func (r *runner) SemanticTokens(t *testing.T, spn span.Span) {

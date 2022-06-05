@@ -22,16 +22,16 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/iansmith/golang-x-tools/internal/jsonrpc2"
+	"github.com/iansmith/golang-x-tools/internal/lsp"
+	"github.com/iansmith/golang-x-tools/internal/lsp/cache"
+	"github.com/iansmith/golang-x-tools/internal/lsp/debug"
+	"github.com/iansmith/golang-x-tools/internal/lsp/lsprpc"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/internal/xcontext"
 )
 
 // Application is the main application as passed to tool.Main

@@ -12,10 +12,10 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/inspect"
+	"github.com/iansmith/golang-x-tools/go/ast/inspector"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 const Doc = `check for string(int) conversions

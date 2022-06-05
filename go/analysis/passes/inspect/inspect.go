@@ -3,15 +3,15 @@
 // license that can be found in the LICENSE file.
 
 // Package inspect defines an Analyzer that provides an AST inspector
-// (golang.org/x/tools/go/ast/inspector.Inspector) for the syntax trees
+// (github.com/iansmith/golang-x-tools/go/ast/inspector.Inspector) for the syntax trees
 // of a package. It is only a building block for other analyzers.
 //
 // Example of use in another analysis:
 //
 //	import (
-//		"golang.org/x/tools/go/analysis"
-//		"golang.org/x/tools/go/analysis/passes/inspect"
-//		"golang.org/x/tools/go/ast/inspector"
+//		"github.com/iansmith/golang-x-tools/go/analysis"
+//		"github.com/iansmith/golang-x-tools/go/analysis/passes/inspect"
+//		"github.com/iansmith/golang-x-tools/go/ast/inspector"
 //	)
 //
 //	var Analyzer = &analysis.Analyzer{
@@ -31,8 +31,8 @@ package inspect
 import (
 	"reflect"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/ast/inspector"
 )
 
 var Analyzer = &analysis.Analyzer{

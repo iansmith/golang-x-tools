@@ -10,8 +10,8 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/span"
 )
 
 func TestMappedRangeAdjustment(t *testing.T) {

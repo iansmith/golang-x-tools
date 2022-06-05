@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/go/buildutil"
+	"github.com/iansmith/golang-x-tools/go/loader"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 func TestStdlib(t *testing.T) {

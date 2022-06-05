@@ -13,9 +13,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/analysis/passes/inspect"
+	"github.com/iansmith/golang-x-tools/go/ast/inspector"
 )
 
 const Doc = `check for unbuffered channel of os.Signal

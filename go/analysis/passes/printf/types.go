@@ -9,8 +9,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 var errorType = types.Universe.Lookup("error").Type().Underlying().(*types.Interface)

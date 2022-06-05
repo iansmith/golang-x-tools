@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/event/export/eventtest"
-	jsonrpc2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/stack/stacktest"
+	"github.com/iansmith/golang-x-tools/internal/event/export/eventtest"
+	jsonrpc2 "github.com/iansmith/golang-x-tools/internal/jsonrpc2_v2"
+	"github.com/iansmith/golang-x-tools/internal/stack/stacktest"
 )
 
 var callTests = []invoker{

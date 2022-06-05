@@ -15,7 +15,7 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/iansmith/golang-x-tools/go/packages"
 )
 
 func TestArrayLength(t *testing.T) {

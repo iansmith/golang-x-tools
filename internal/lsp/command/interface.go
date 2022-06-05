@@ -17,7 +17,7 @@ package command
 import (
 	"context"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
 )
 
 // Interface defines the interface gopls exposes for the

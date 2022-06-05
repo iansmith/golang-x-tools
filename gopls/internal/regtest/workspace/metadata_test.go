@@ -7,8 +7,8 @@ package workspace
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/testenv"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/regtest"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
 )
 
 // TODO(rfindley): move workspace tests related to metadata bugs into this

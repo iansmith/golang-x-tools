@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/memoize"
+	"github.com/iansmith/golang-x-tools/internal/memoize"
 )
 
 func TestGet(t *testing.T) {

@@ -7,7 +7,7 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/iansmith/golang-x-tools/internal/lsp/regtest"
 )
 
 func TestEmptyDirectoryFilters_Issue51843(t *testing.T) {

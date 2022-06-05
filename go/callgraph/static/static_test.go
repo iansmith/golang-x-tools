@@ -11,12 +11,12 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/callgraph/static"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/callgraph"
+	"github.com/iansmith/golang-x-tools/go/callgraph/static"
+	"github.com/iansmith/golang-x-tools/go/loader"
+	"github.com/iansmith/golang-x-tools/go/ssa"
+	"github.com/iansmith/golang-x-tools/go/ssa/ssautil"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 const input = `package P

@@ -12,8 +12,8 @@ import (
 	"go/types"
 	"text/template"
 
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/command/commandmeta"
+	"github.com/iansmith/golang-x-tools/internal/imports"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command/commandmeta"
 )
 
 const src = `// Copyright 2021 The Go Authors. All rights reserved.
@@ -109,10 +109,10 @@ func Generate() ([]byte, error) {
 		Imports: map[string]bool{
 			"context": true,
 			"fmt":     true,
-			"golang.org/x/tools/internal/lsp/protocol": true,
+			"github.com/iansmith/golang-x-tools/internal/lsp/protocol": true,
 		},
 	}
-	const thispkg = "golang.org/x/tools/internal/lsp/command"
+	const thispkg = "github.com/iansmith/golang-x-tools/internal/lsp/command"
 	for _, c := range d.Commands {
 		for _, arg := range c.Args {
 			pth := pkgPath(arg.Type)

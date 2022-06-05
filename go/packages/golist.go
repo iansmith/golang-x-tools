@@ -23,9 +23,9 @@ import (
 	"unicode"
 
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
+	"github.com/iansmith/golang-x-tools/go/internal/packagesdriver"
+	"github.com/iansmith/golang-x-tools/internal/gocommand"
+	"github.com/iansmith/golang-x-tools/internal/packagesinternal"
 )
 
 // debug controls verbose logging.

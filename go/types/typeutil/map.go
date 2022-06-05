@@ -4,7 +4,7 @@
 
 // Package typeutil defines various utilities for types, such as Map,
 // a mapping from types.Type to interface{} values.
-package typeutil // import "golang.org/x/tools/go/types/typeutil"
+package typeutil // import "github.com/iansmith/golang-x-tools/go/types/typeutil"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 // Map is a hash-table-based mapping from types (types.Type) to

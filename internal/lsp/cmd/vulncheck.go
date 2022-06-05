@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/tool"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/tool"
 )
 
 // vulncheck implements the vulncheck command.
@@ -50,7 +50,7 @@ func (v *vulncheck) DetailedHelp(f *flag.FlagSet) {
 	WARNING: this command is experimental.
 
 	By default, the command outputs a JSON-encoded
-	golang.org/x/tools/internal/lsp/command.VulncheckResult
+	github.com/iansmith/golang-x-tools/internal/lsp/command.VulncheckResult
 	message.
 	Example:
 	$ gopls vulncheck <packages>

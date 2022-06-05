@@ -5,7 +5,7 @@
 // Package playground registers an HTTP handler at "/compile" that
 // proxies requests to the golang.org playground service.
 // This package may be used unaltered on App Engine Standard with Go 1.11+ runtime.
-package playground // import "golang.org/x/tools/playground"
+package playground // import "github.com/iansmith/golang-x-tools/playground"
 
 import (
 	"bytes"

@@ -16,7 +16,7 @@
 //
 //	import (
 //		"example.org/findbadness"
-//		"golang.org/x/tools/go/analysis/singlechecker"
+//		"github.com/iansmith/golang-x-tools/go/analysis/singlechecker"
 //	)
 //
 //	func main() { singlechecker.Main(findbadness.Analyzer) }
@@ -29,10 +29,10 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/internal/analysisflags"
-	"golang.org/x/tools/go/analysis/internal/checker"
-	"golang.org/x/tools/go/analysis/unitchecker"
+	"github.com/iansmith/golang-x-tools/go/analysis"
+	"github.com/iansmith/golang-x-tools/go/analysis/internal/analysisflags"
+	"github.com/iansmith/golang-x-tools/go/analysis/internal/checker"
+	"github.com/iansmith/golang-x-tools/go/analysis/unitchecker"
 )
 
 // Main is the main function for a checker command for a single analysis.

@@ -9,7 +9,7 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/iansmith/golang-x-tools/go/packages"
 )
 
 // This test reports any unexpected uses of (*go/token.File).Offset within
@@ -21,7 +21,7 @@ func TestTokenOffset(t *testing.T) {
 	pkgs, err := packages.Load(&packages.Config{
 		Fset: fset,
 		Mode: packages.NeedName | packages.NeedModule | packages.NeedCompiledGoFiles | packages.NeedTypes | packages.NeedTypesInfo | packages.NeedSyntax | packages.NeedImports | packages.NeedDeps,
-	}, "go/token", "golang.org/x/tools/internal/lsp/...", "golang.org/x/tools/gopls/...")
+	}, "go/token", "github.com/iansmith/golang-x-tools/internal/lsp/...", "github.com/iansmith/golang-x-tools/gopls/...")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -30,7 +30,7 @@ func TestTokenOffset(t *testing.T) {
 		switch pkg.PkgPath {
 		case "go/token":
 			tokenPkg = pkg
-		case "golang.org/x/tools/internal/lsp/safetoken":
+		case "github.com/iansmith/golang-x-tools/internal/lsp/safetoken":
 			safePkg = pkg
 		}
 	}
@@ -39,7 +39,7 @@ func TestTokenOffset(t *testing.T) {
 		t.Fatal("missing package go/token")
 	}
 	if safePkg == nil {
-		t.Fatal("missing package golang.org/x/tools/internal/lsp/safetoken")
+		t.Fatal("missing package github.com/iansmith/golang-x-tools/internal/lsp/safetoken")
 	}
 
 	fileObj := tokenPkg.Types.Scope().Lookup("File")
@@ -58,7 +58,7 @@ func TestTokenOffset(t *testing.T) {
 			if safeOffset.Pos() <= ident.Pos() && ident.Pos() <= safeOffset.Scope().End() {
 				continue // accepted usage
 			}
-			t.Errorf(`%s: Unexpected use of (*go/token.File).Offset. Please use golang.org/x/tools/internal/lsp/safetoken.Offset instead.`, fset.Position(ident.Pos()))
+			t.Errorf(`%s: Unexpected use of (*go/token.File).Offset. Please use github.com/iansmith/golang-x-tools/internal/lsp/safetoken.Offset instead.`, fset.Position(ident.Pos()))
 		}
 	}
 }

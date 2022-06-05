@@ -24,24 +24,24 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/source/completion"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/typeparams"
-	"golang.org/x/tools/txtar"
+	"github.com/iansmith/golang-x-tools/go/expect"
+	"github.com/iansmith/golang-x-tools/go/packages"
+	"github.com/iansmith/golang-x-tools/go/packages/packagestest"
+	"github.com/iansmith/golang-x-tools/internal/lsp/command"
+	"github.com/iansmith/golang-x-tools/internal/lsp/protocol"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source"
+	"github.com/iansmith/golang-x-tools/internal/lsp/source/completion"
+	"github.com/iansmith/golang-x-tools/internal/span"
+	"github.com/iansmith/golang-x-tools/internal/testenv"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/txtar"
 )
 
 const (
 	overlayFileSuffix = ".overlay"
 	goldenFileSuffix  = ".golden"
 	inFileSuffix      = ".in"
-	testModule        = "golang.org/x/tools/internal/lsp"
+	testModule        = "github.com/iansmith/golang-x-tools/internal/lsp"
 )
 
 var summaryFile = "summary.txt"

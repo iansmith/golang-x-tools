@@ -15,9 +15,9 @@ import (
 	"os"
 	"sync"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/iansmith/golang-x-tools/go/ast/astutil"
+	"github.com/iansmith/golang-x-tools/go/types/typeutil"
+	"github.com/iansmith/golang-x-tools/internal/typeparams"
 )
 
 //// Sanity checking utilities

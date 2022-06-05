@@ -39,7 +39,7 @@
 // analysis, but the algorithm is much faster.  For example, running the
 // cmd/callgraph tool on its own source takes ~2.1s for RTA and ~5.4s
 // for points-to analysis.
-package rta // import "golang.org/x/tools/go/callgraph/rta"
+package rta // import "github.com/iansmith/golang-x-tools/go/callgraph/rta"
 
 // TODO(adonovan): test it by connecting it to the interpreter and
 // replacing all "unreachable" functions by a special intrinsic, and
@@ -53,9 +53,9 @@ import (
 	"fmt"
 	"go/types"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/iansmith/golang-x-tools/go/callgraph"
+	"github.com/iansmith/golang-x-tools/go/ssa"
+	"github.com/iansmith/golang-x-tools/go/types/typeutil"
 )
 
 // A Result holds the results of Rapid Type Analysis, which includes the

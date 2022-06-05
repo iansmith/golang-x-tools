@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"text/tabwriter"
 
-	"golang.org/x/tools/benchmark/parse"
+	"github.com/iansmith/golang-x-tools/benchmark/parse"
 )
 
 var (
